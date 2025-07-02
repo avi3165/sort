@@ -66,5 +66,5 @@ def part_of_sort(li3:list[int],num:int):
         minimum = find_min_index(li3, i)
         swap(li3, i, minimum)
     return li3
-h=[5000,87,7664,2,454,65,75,35,36,1,55,4,3]
+h=[5000,88,7664,2,454,65,75,35,36,1,55,4,3]
 print(part_of_sort(h,3))
